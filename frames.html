@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMAR<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Ssenono Furniture Gallery</title>
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: 'Arial', sans-serif;
+                }
+                
+                body {
+                    background-color: #f5f5f5;
+                    color: #333;
+                }
+                
+                header {
+                    background-color: #5D4037;
+                    color: white;
+                    padding: 20px 0;
+                    text-align: center;
+                }
+                
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                
+                h1 {
+                    font-size: 2.5rem;
+                    margin-bottom: 10px;
+                }
+                
+                .subtitle {
+                    font-style: italic;
+                    color: #BCAAA4;
+                }
+                
+                .gallery {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                    gap: 20px;
+                    margin-top: 30px;
+                }
+                
+                .gallery-item {
+                    background-color: white;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                    transition: transform 0.3s ease;
+                }
+                
+                .gallery-item:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+                }
+                
+                .gallery-img {
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                    cursor: pointer;
+                }
+                
+                .gallery-caption {
+                    padding: 15px;
+                    text-align: center;
+                    background-color: #fff;
+                }
+                
+                .gallery-caption h3 {
+                    color: #5D4037;
+                    margin-bottom: 5px;
+                }
+                
+                .gallery-caption p {
+                    color: #757575;
+                    font-size: 0.9rem;
+                }
+                
+                footer {
+                    background-color: #3E2723;
+                    color: white;
+                    text-align: center;
+                    padding: 20px;
+                    margin-top: 40px;
+                }
+                
+                @media (max-width: 768px) {
+                    .gallery {
+                        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                    }
+                    
+                    h1 {
+                        font-size: 2rem;
+                    }
+                }
+                
+                @media (max-width: 480px) {
+                    .gallery {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <div class="container">
+                    <h1>Ssenono Furniture</h1>
+                    <p class="subtitle">Handcrafted Excellence Since</p>
+                </div>
+            </header>
+            
+            <div class="container">
+                <div class="gallery">
+                    <!-- Furniture Item 1 -->
+                    <div class="gallery-item">
+                        <img src="frames/1.jpg" 
+                             alt="Modern Sofa Set" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Modern%20Sofa%20Set')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 2 -->
+                    <div class="gallery-item">
+                        <img src="frames/2.jpg" 
+                             alt="Dining Table Set" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Dining%20Table%20Set')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 3 -->
+                    <div class="gallery-item">
+                        <img src="frames/3.jpg" 
+                             alt="King Size Bed" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20King%20Size%20Bed')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 4 -->
+                    <div class="gallery-item">
+                        <img src="frames/4.jpg" 
+                             alt="Kitchen Cabinets" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Kitchen%20Cabinets')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 5 -->
+                    <div class="gallery-item">
+                        <img src="frames/5.jpg" 
+                             alt="Bookshelf Unit" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Bookshelf%20Unit')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 6 -->
+                    <div class="gallery-item">
+                        <img src="frames/6.jpg" 
+                             alt="Coffee Table" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Coffee%20Table')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 7 -->
+                    <div class="gallery-item">
+                        <img src="frames/7.jpg" 
+                             alt="Office Desk" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Office%20Desk')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 8 -->
+                    <div class="gallery-item">
+                        <img src="frames/8.jpg" 
+                             alt="TV Stand" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20TV%20Stand')">
+                        <div class="gallery-caption">
+                         
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 9 -->
+                    <div class="gallery-item">
+                        <img src="frames/9.jpg" 
+                             alt="Wardrobe" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Wardrobe')">
+                        <div class="gallery-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 10 -->
+                    <div class="gallery-item">
+                        <img src="frames/10.jpg" 
+                             alt="Dining Chairs" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Dining%20Chairs')">
+                        <div class="gallery-caption">
+                       
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 11 -->
+                    <div class="gallery-item">
+                        <img src="frames/11.jpg" 
+                             alt="Console Table" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Console%20Table')">
+                        <div class="gallery-caption">
+                         
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 12 -->
+                    <div class="gallery-item">
+                        <img src="frames/12.jpg" 
+                             alt="Side Tables" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Side%20Tables')">
+                        <div class="gallery-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 13 -->
+                    <div class="gallery-item">
+                        <img src="frames/13.jpg" 
+                             alt="Study Desk" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Study%20Desk')">
+                        <div class="gallery-caption">
+                    
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 14 -->
+                    <div0.. class="gallery-item">
+                        <img src="frames/14.jpg" 
+                             alt="Queen Size Bed" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Queen%20Size%20Bed')">
+                        <div class="gallery-caption">
+                         
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 15 -->
+                    <div class="gallery-item">
+                        <img src="frames/15.jpg" 
+                             alt="Bar Stools" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Bar%20Stools')">
+                        <div class="gallery-caption">
+                       
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 16 -->
+                    <div class="gallery-item">
+                        <img src="frames/16.jpg" 
+                             alt="Display Cabinet" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Display%20Cabinet')">
+                        <div class="gallery-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 17 -->
+                    <div class="gallery-item">
+                        <img src="frames/17.jpg" 
+                             alt="Shoe Rack" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Shoe%20Rack')">
+                        <div class="gallery-caption">
+              
+                        
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 18 -->
+                    <div class="gallery-item">
+                        <img src="frames/18.jpg" 
+                             alt="Bookshelf" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Bookshelf')">
+                        <div class="gallery-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 19 -->
+                    <div class="gallery-item">
+                        <img src="frames/19.jpg" 
+                             alt="Accent Chair" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Accent%20Chair')">
+                        <div class="gallery-caption">
+                     
+                        </div>
+                    </div>
+                    
+                    <!-- Furniture Item 20 -->
+                    <div class="gallery-item">
+                        <img src="frames/20.jpg" 
+                             alt="Dressing Table" 
+                             class="gallery-img"
+                             onclick="window.open('https://wa.me/256759960400?text=Hi%20Ssenono%20Furniture,%20I%20am%20interested%20in%20the%20Dressing%20Table')">
+                        <div class="gallery-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer>
+                <div class="container">
+                    <p>Contact us on WhatsApp: <a href="https://wa.me/256759960400" style="color: #BCAAA4;">+256 759 960400</a></p>
+                    <p>&copy; 2023 Ssenono Furniture. All rights reserved.</p>
+                </div>
+            </footer>
+            
+            <script>
+                // This function could be used for any additional functionality
+                function initGallery() {
+                    console.log("Gallery initialized");
+                }
+                
+                // Initialize when page loads
+                window.onload = initGallery;
+            </script>
+        </body>
+        </html> FURNITURE INTERIOR - Premium Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>ALMAR FURNITURE INTERIOR</h1>
+                <p>Design • Create • Transform</p>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://wa.me/256702130441" class="whatsapp-icon" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="tel:+256702130441" class="phone-icon">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="main-title">Our Premium Furniture Collection</h1>
+        
+        <div class="gallery">
+            <!-- Products will be loaded dynamically by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp">
+        <a href="https://wa.me/256702130441" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ALMAR FURNITURE INTERIOR</h3>
+                    <p>We design, create and transform spaces with premium furniture solutions.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/256702130441"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Nabingo, Masaka road, Kampala</p>
+                    <p><i class="fas fa-phone"></i> +256 702 13030441</p>
+                    <p><i class="fas fa-envelope"></i> assenyange6@gmail.com</p>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and offers</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 ALMAR FURNITURE INTERIOR. All Rights Reserved. Designed by SHAFT TECH</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
